@@ -3,18 +3,18 @@
     margin: 0;
     padding: 0;
     border: 0;
-    -webkit-box-sizing: border-box; /** Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /** Firefox, other Gecko */
-    box-sizing: border-box;         /** Opera/IE 8+ */
+    -webkit-box-sizing: border-box; // Safari/Chrome, other WebKit
+    -moz-box-sizing: border-box;    // Firefox, other Gecko
+    box-sizing: border-box;         // Opera/IE 8+
     word-break: hyphenate;
     outline: none;
 }
 
 html {
-    font-size: 62.5%; /** reset units for easy em/rem's */
+    font-size: 62.5%; // reset units for easy em/rem's
 }
 
 body {
     background-color: rgb(0, 0, 0);
-    font-size: 1.4rem;
+    @include file-size(1.4rem);
 }

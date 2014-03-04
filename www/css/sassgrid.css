@@ -4,22 +4,19 @@
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
-  /** Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
-  /** Firefox, other Gecko */
   box-sizing: border-box;
-  /** Opera/IE 8+ */
   word-break: hyphenate;
   outline: none;
 }
 
 html {
   font-size: 62.5%;
-  /** reset units for easy em/rem's */
 }
 
 body {
   background-color: black;
+  font-size: 14px;
   font-size: 1.4rem;
 }
 
