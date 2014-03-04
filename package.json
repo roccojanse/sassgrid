@@ -1,0 +1,17 @@
+{
+  "name": "sassgrid",
+  "version": "0.0.1",
+  "description": "sass based html5 flexible grid system",
+  "author": "Rocco Janse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roccojanse/sassgrid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/roccojanse/sassgrid/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.7.2"
+  }
+}
