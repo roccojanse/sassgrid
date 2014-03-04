@@ -1,0 +1,41 @@
+/* sassgrid 0.0.1 (c)Rocco Janse */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  /** Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /** Firefox, other Gecko */
+  box-sizing: border-box;
+  /** Opera/IE 8+ */
+  word-break: hyphenate;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  /** reset units for easy em/rem's */
+}
+
+body {
+  background-color: black;
+  font-size: 1.4rem;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}

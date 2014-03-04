@@ -10,8 +10,8 @@ module.exports = function(grunt) {
                     style: 'expanded',
                     trace: true,
                     precision: 3,
-                    nocache: true,
-                    banner: '<%= pkg.name %> <%= pkg.version %> (c)<%= pkg.author %>'
+                    noCache: true,
+                    banner: '/* <%= pkg.name %> <%= pkg.version %> (c)<%= pkg.author %> */'
                 },
                 files: {
                     'www/css/<%= pkg.name %>.css': ['src/scss/main.scss']
